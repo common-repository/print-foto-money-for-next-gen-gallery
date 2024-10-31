@@ -1,0 +1,130 @@
+@CHARSET "UTF-8";
+/* Sample CSS styles below */
+.removerelative {
+	position:static !important;
+}
+.print-money-wrapper {
+	display:inline-block;
+	position:relative !important;
+	padding:0 !important;
+	max-width:100%;
+	background: url("../espelymiranda-loading-v03.gif") no-repeat scroll center center !important;;
+}
+.print-money-wrapper img {
+	margin:0;
+	padding:0 !important;
+}
+img {
+	min-height:0 !important;
+	height:auto !important;
+}
+.btn-img {
+	display:inline;
+	position:absolute !important;
+	z-index:999999 !important;
+	padding:5px 10px !important;
+	background: #000; /* Old browsers */
+    opacity: .80;
+    box-sizing: border-box;
+    clear: both !important;
+    color: #fff ;
+    cursor: pointer !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+	font-style:normal !important;
+	line-height: normal !important;
+	
+}
+.btn-img:hover {
+	color:#fff;
+	background: #000; /* Old browsers */
+    opacity: .80;
+
+}
+.print-money-wrapper:hover > .btn-img  {
+	display: inline-block !important;
+}
+.btn-img.top-right {
+	top:0;
+	right:0;
+}
+.btn-img.top-left {
+	top:0;
+	left:0;
+}
+.btn-img.bottom-right {
+	bottom:0;
+	right:0;
+}
+.btn-img.bottom-left {
+	bottom:0;
+	left:0;
+}
+
+/* NGG GALLERY SETTINGS */
+.ngg-slideshow .print-money-wrapper,
+.ngg-gallery-thumbnail .print-money-wrapper  {
+	display:block;
+	height:auto !important;
+	width:100% !important;
+}
+.ngg-gallery-thumbnail .print-money-wrapper img {
+	margin:0 !important;
+	padding:0 !important;
+	border:none;
+}
+.ngg-gallery-thumbnail .print-money-wrapper{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(169, 169, 169);
+    display: block;
+    margin: 4px 0 4px 4px;
+    padding: 4px;
+    position: relative;
+}
+
+/* JIG GALLERY SETTINGS */
+.jig-imageContainer .print-money-wrapper  {
+	display:block;
+	width:100% !important;
+	height:100% !important;
+}
+
+/* Fix Alignment */
+.print-money-wrapper.alignnone {
+	display:inline-block;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.print-money-wrapper.aligncenter {
+	display:block;
+	margin:10px auto;
+}
+.print-money-wrapper.alignleft {
+	display:inline-block;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	float:left;
+}
+.print-money-wrapper.alignright {
+	display:inline-block;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+	float:right;
+}
+
+
+
+/*@media screen and (max-width:360px) {
+	.print-money-wrapper {
+		height:auto !important;
+		text-align:left;
+	}
+	.btn-img {
+		display:inline-block !important;
+		position:static !important;
+	}
+}*/

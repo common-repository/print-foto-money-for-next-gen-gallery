@@ -1,0 +1,15 @@
+/* CSS Document */
+.print-money-wrapper.alignleft {
+	margin: 7px 24px 7px 0;
+	margin-left: -168px;
+}
+.print-money-wrapper.alignright {
+	margin: 7px 0 7px 24px;
+    margin-right: -168px;
+}
+.print-money-wrapper.aligncenter {
+	display:block;
+	overflow:hidden;
+	margin-bottom: 7px;
+    margin-top: 7px;
+}
